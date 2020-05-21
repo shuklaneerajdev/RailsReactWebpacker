@@ -4,6 +4,8 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import "bootstrap/dist/css/bootstrap.css"
+import Home from "../components/Home/Home";
 import PropTypes from 'prop-types'
 
 const Hello = props => (
@@ -20,7 +22,7 @@ Hello.propTypes = {
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Hello name="React" />,
+    <Home/>,
     document.body.appendChild(document.createElement('div')),
   )
 })
